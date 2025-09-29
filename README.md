@@ -31,13 +31,6 @@
 
 ---
 
-### 📦 Repositories (pinned below)
-- **Prometheus_Void-Dynamics_Model** → substrate, walkers, scoreboard  
-- **Modular_Utilities** → local tooling, scripts, AMD/ROCm helpers  
-- **agent_tools** → orchestration, validators, critics, routers
-
----
-
 ### 🧪 Reproducible records (Zenodo)
 - Latest Zenodo Upload: **[A Logarithmic First Integral for the Logistic On Site Law in Void Dynamics
 ](https://zenodo.org/records/17220869?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijg5NzU0YWVkLTk4OTktNDkzMC1hMDQ4LTEwYThmMjMwYmY5MyIsImRhdGEiOnt9LCJyYW5kb20iOiJjYTg4YjhhZmJmZGVkMmIyMTFkNmEzOWIzNmFkMDk2NCJ9.ACynGDMzx4lAtPOfNNX-vDPPh8DMEISWTOoCO-I3DJ9aktZ_RZCDm0uUwxtVi5eVYbsrMopwcANKznI8WrslbQ)**
