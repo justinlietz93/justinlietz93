@@ -35,11 +35,10 @@
 ---
 
 ### 🧪 Reproducible records (Zenodo)
-- **A Logarithmic First Integral for the Logistic On-Site Law in Void Dynamics**  
-  DOI: **10.5281/zenodo.17220869**  
-- **RD baselines, convergence, Q-drift, front speed** (datasets + figures)  
-  See my latest Zenodo upload: **[A Logarithmic First Integral for the Logistic On Site Law in Void Dynamics
+- Latest Zenodo Upload: **[A Logarithmic First Integral for the Logistic On Site Law in Void Dynamics
 ](https://zenodo.org/records/17220869?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijg5NzU0YWVkLTk4OTktNDkzMC1hMDQ4LTEwYThmMjMwYmY5MyIsImRhdGEiOnt9LCJyYW5kb20iOiJjYTg4YjhhZmJmZGVkMmIyMTFkNmEzOWIzNmFkMDk2NCJ9.ACynGDMzx4lAtPOfNNX-vDPPh8DMEISWTOoCO-I3DJ9aktZ_RZCDm0uUwxtVi5eVYbsrMopwcANKznI8WrslbQ)**
+- DOI: **10.5281/zenodo.17220869**  
+- **RD baselines, convergence, Q-drift, front speed** (datasets + figures)  
 
 ---
 
