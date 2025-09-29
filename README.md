@@ -12,8 +12,6 @@
   <a href="https://orcid.org/0009-0008-9028-1366"><img src="https://img.shields.io/badge/ORCID-0009--0008--9028--1366-blue?style=flat-square" alt="ORCID"></a>
   <!-- AMD/ROCm stance -->
   <img src="https://img.shields.io/badge/GPU-AMD%2FROCm-only?style=flat-square" alt="AMD/ROCm only">
-  <!-- License badge -->
-  <img src="https://img.shields.io/badge/License-Apache--2.0-informational?style=flat-square" alt="License">
 </p>
 
 ---
