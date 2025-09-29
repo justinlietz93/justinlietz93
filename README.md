@@ -49,12 +49,14 @@
 ### ⚙️ Quickstart (local, AMD/ROCm)
 ```bash
 # clone
-git clone https://github.com/JUSTIN_ORG/Prometheus_Void-Dynamics_Model.git
+git clone https://github.com/Neuroca-Inc/Prometheus_Void-Dynamics_Model.git
 cd Prometheus_Void-Dynamics_Model
 
 # create env (exact commands in repo README)
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# run a minimal RD + walkers demo
-python demos/minimal_vdm.py  # produces figures, logs, and a short report
+# run a minimal RD + walkers demo (Coming soon)
+...
+
+# Otherwise check out the code/ folder for the available public sims
