@@ -1,8 +1,8 @@
 <!-- Profile README for @JUSTIN_GH_HANDLE -->
 <h1 align="center">Void Dynamics Model (VDM)</h1>
 <p align="center">
-  A real-time, event-driven, reaction–diffusion substrate with walker ecology & memory steering.  
-  <br/>No dense scans. No epoch training. Constraint satisfaction in the moment.
+  A real-time, event-driven, reaction–diffusion substrate with void walker ecology & memory steering.  
+  <br/>No dense scans. Zero training. Divergent reasoning. Constraint satisfaction in the moment.
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 ---
 
 ### 🔭 What I’m building
-- **VDM Core** — reaction–diffusion field + walker ecology + scoreboard/GDSP gating  
+- **VDM** — reaction–diffusion field + walker ecology + scoreboard/GDSP gating  
 - **Memory Steering** — dynamic knowledge graph with event-driven updates  
 - **Real-time control** — swap massive pretraining for fast constraint satisfaction
 
@@ -28,21 +28,18 @@
 ---
 
 ### 📦 Repositories (pin these)
-- **Prometheus_Void-Dynamics_Model** → core substrate, walkers, scoreboard  
+- **Prometheus_Void-Dynamics_Model** → substrate, walkers, scoreboard  
 - **Modular_Utilities** → local tooling, scripts, AMD/ROCm helpers  
 - **agent_tools** → orchestration, validators, critics, routers
-
-> Tip: Pin them via “Customize profile” so they appear above the fold.
 
 ---
 
 ### 🧪 Reproducible records (Zenodo)
 - **A Logarithmic First Integral for the Logistic On-Site Law in Void Dynamics**  
-  DOI: **10.5281/zenodo.XXXXXXXX**  
+  DOI: **10.5281/zenodo.17220869**  
 - **RD baselines, convergence, Q-drift, front speed** (datasets + figures)  
-  See my Zenodo author page: **https://zenodo.org/records/?q=creator%3A%22Lietz%2C%20Justin%22** *(or your direct profile link)*
-
-> Use your **concept DOI** in badges if you want a stable “latest” link. Version DOIs point to a specific release.
+  See my latest Zenodo upload: **[A Logarithmic First Integral for the Logistic On Site Law in Void Dynamics
+](https://zenodo.org/records/17220869?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijg5NzU0YWVkLTk4OTktNDkzMC1hMDQ4LTEwYThmMjMwYmY5MyIsImRhdGEiOnt9LCJyYW5kb20iOiJjYTg4YjhhZmJmZGVkMmIyMTFkNmEzOWIzNmFkMDk2NCJ9.ACynGDMzx4lAtPOfNNX-vDPPh8DMEISWTOoCO-I3DJ9aktZ_RZCDm0uUwxtVi5eVYbsrMopwcANKznI8WrslbQ)**
 
 ---
 
