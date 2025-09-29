@@ -27,7 +27,7 @@
 
 ---
 
-### 📦 Repositories (pin these)
+### 📦 Repositories (pinned below)
 - **Prometheus_Void-Dynamics_Model** → substrate, walkers, scoreboard  
 - **Modular_Utilities** → local tooling, scripts, AMD/ROCm helpers  
 - **agent_tools** → orchestration, validators, critics, routers
