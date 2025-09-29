@@ -23,7 +23,7 @@
 ---
 
 ### 🔭 What I’m building
-- **VDM** — reaction–diffusion field + walker ecology + scoreboard/GDSP gating  
+- **VDM** — reaction–diffusion field intelligence + walker ecology + scoreboard/GDSP gating  
 - **Memory Steering** — dynamic knowledge graph with event-driven updates  
 - **Real-time control** — swap massive pretraining for fast constraint satisfaction
 
