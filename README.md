@@ -13,7 +13,7 @@
   <!-- AMD/ROCm stance -->
   <img src="https://img.shields.io/badge/GPU-AMD%2FROCm-only?style=flat-square" alt="AMD/ROCm only">
   <!-- LICENSE -->
-  <img src="https://img.shields.io/badge/Academic%2FCommercial%20Dual-License?label=LICENSE&color=%23fff200&link=https%3A%2F%2Fgithub.com%2FNeuroca-Inc%2FPrometheus_Void-Dynamics_Model%2Fblob%2Fmain%2FLICENSE.md" alt="Dual Academic/Commercial License">  
+  <a href="https://github.com/Neuroca-Inc/Prometheus_Void-Dynamics_Model/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/Academic%2FCommercial%20Dual-License?label=LICENSE&color=%23fff200&link=https%3A%2F%2Fgithub.com%2FNeuroca-Inc%2FPrometheus_Void-Dynamics_Model%2Fblob%2Fmain%2FLICENSE.md" alt="Dual Academic/Commercial License"></a>
 </p>
 
 ---
