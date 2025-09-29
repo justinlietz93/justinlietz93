@@ -46,7 +46,7 @@
 
 ---
 
-### ⚙️ Quickstart (local, AMD/ROCm)
+### ⚙️ Quickstart
 ```bash
 # clone
 git clone https://github.com/Neuroca-Inc/Prometheus_Void-Dynamics_Model.git
