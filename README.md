@@ -78,6 +78,8 @@
   - SIE and Emergent KG + Real-Time TDA show very strong statistically significant findings, making feasible the entire model
 - **October, 2024**  
   - Initial realization of the idea.
+ 
+--- 
 
 **Provenance & checks (written by `00_RUN_ALL.ipynb`)**
 
