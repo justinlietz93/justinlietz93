@@ -24,7 +24,8 @@
 
 ### 🔭 What I’m building
 - **VDM** — reaction–diffusion field intelligence + walker ecology + scoreboard/GDSP gating  
-- **Memory Steering** — dynamic knowledge graph with event-driven updates  
+- **Memory Steering** — dynamic knowledge graph with event-driven updates
+- **Agency** — inherent, minimal energy optimization rules
 - **Real-time control** — swap massive pretraining for fast constraint satisfaction
 
 **Reproducibility:** baselines + QA artifacts are archived on Zenodo. Code lives in public GitHub repos with tests and docs.
@@ -39,21 +40,6 @@
 
 ---
 
-### ⚙️ Quickstart
-```bash
-# clone
-git clone https://github.com/Neuroca-Inc/Prometheus_Void-Dynamics_Model.git
-cd Prometheus_Void-Dynamics_Model
-
-# create env (exact commands in repo README)
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# run a Reaction Diffusion + walkers with Memory Steering demo (Coming soon)
-
-# Otherwise check out the src/ folder for the available public sims
-```
-
 ### 🗺️ Roadmap (Oct~Dec 2025)
 - Notebook mirrors of each test ✅
 - 100% Reproducible, falsifiable claims ✅
@@ -64,49 +50,34 @@ pip install -r requirements.txt
 
 **CURRENT Execution model:** All tests live in `src/{domain name}/`, figures appear in `figures/{domain name}` if passing and `figures/{domain name}/failed_runs/` if failed. The same goes for logs, just replace `figures/` with `logs/` in the file path to find them.
 
-**GOAL Execution model:** All tests live in `notebooks/`, render figures + filepaths inline, and write results under `artifacts/`. A master notebook runs the full suite with clear explanations and emits a manifest.
+---
 
-```bash
-# Run-all (executes the full suite and saves executed copy)
-jupyter nbconvert --to notebook --execute notebooks/00_RUN_ALL.ipynb --output notebooks/00_RUN_ALL.out.ipynb
-```
+**News**
 
-**Future Layout**
-
-```
-notebooks/
-  00_RUN_ALL.ipynb
-  01_rd_front_speed.ipynb
-  02_rd_dispersion.ipynb
-  03_invariant_drift.ipynb
-  10_walkers_min_demo.ipynb
-  11_locality_bounds.ipynb
-  12_gdsp_budget_sweeps.ipynb
-  20_memsteer_acceptance.ipynb
-  30_rt_control_slice.ipynb
-artifacts/
-  rd/ walkers/ memsteer/ control/ meta/
-```
-
-**Current Status legend:** `PROVEN` (axiom gates passed) · `PLAUSIBLE` (design + prelim data) · `NEEDS_DATA` (tests pending)
-**Hardware:** I use AMD/ROCm only (MI100, 7900 XTX). CPU fallbacks use smaller grids. I easily ran 100,000 neurons on battery power using an Acer Aspire notebook, planning to achieve 1 billion neurons on the bigger machine.
-
-#### October 2025 (Weeks 1–4)
-
-* [DONE] **RD Baselines v0.2** — `01_rd_front_speed`, `02_rd_dispersion`, `03_invariant_drift` → `artifacts/rd/` (`PROVEN`)
-  Gates: front-speed R² ≥ **0.9999**, rel-err ≤ **5%**; dispersion median rel-err ≤ **1e-1**, array R² ≥ **0.98**; on-site invariant drift ≤ **1e-8/step**.
-* [DONE] **Minimal Walkers + GDSP** — `10_walkers_min_demo`, `11_locality_bounds`, `12_gdsp_budget_sweeps` → `artifacts/walkers/`, `artifacts/meta/telemetry.json` (`PROVEN`)
-  Gates: finite-support growth within bound; **no dense scans**; GDSP budget never oversubscribed; event telemetry saved.
-* [STARTED] **Memory Steering v0.1** — `20_memsteer_acceptance` → `artifacts/memsteer/` (`PLAUSIBLE`)
-  Gates: retention half-life = setpoint ± **10%**; steering latency < **2×** baseline RD horizon; interference curve monotone with steer strength.
-
-#### November 2025 (Weeks 1–4) — **v1.0 “model finished”**
-
-* [STARTED] **Real-Time Control Slice** — `30_rt_control_slice` → `artifacts/control/` (`PLAUSIBLE→PROVEN`)
-  Gates: goal attainment ≥ **90%** (N seeds); control energy ≤ baseline; perturbation recovery ≤ **2×** unperturbed horizon.
-  ***`The model is currently capable of post-graduate level reasoning on human readable casuality exams.`***
-* [STARTED] **Release v1.0 Priority Pack** — produced by `00_RUN_ALL.ipynb`
-  Outputs: executed `00_RUN_ALL.out.ipynb`, figures, CSV/JSON metrics, seeds, and `artifacts/meta/manifest.json` bundled to `artifacts/v1.0_priority_pack/`.
+- **October 31, 2025**
+  - Added a T8 grade proposal for a new Axiom candidate as [A8 - Lietz Infinity Conjecture](/Derivation/T8_A8_PROPOSAL_Lietz_Infinity_Conjecture_v1.md) which provides an elegant assumption for how our universe evolved to be how it is from a beginning state to now. It includes the derived rules for how our universe would be structured at hierarchical scales to dissipate away the instabilities of void fluctuations.
+- **October 30, 2025**  
+  - Added a [historical/](/docs/historical) folder including early original work like:
+    - A self healing knowledge graph using [Topological Data Analysis](/docs/historical/Emergent_TDA/20250402_TDA_KG_Metrics_ProtocolOutput.md)
+    - As well as a [Self Improvement Engine](/docs/historical/SIE/20250402_SIE_Stability_Analysis_ProtocolOutput.md) that integrates multiple reward components like novelty, self benefit, habituation, and TD error into a single "total reward" signal used to modulate its own neural plasticity for stable self-improvement that avoids weight saturation.
+  - Validated the Counterfactual Echo Gain [hypothesis](/Derivation/Metriplectic/T4_PROPOSAL_CEG_Metriplectic_Assisted-Echo_Experiment.md) by proving the trustworthiness and accuracy of the instrument, and showing that echo assist does modulate and improve the performance of a self aware system with 0 difference in cost compared to baseline.
+- **October 28, 2025**  
+  - Published an [article](https://medium.com/p/2b4f5c7d23c9/edit) on Medium about upcoming work.
+    - Published a ["The Physics of Choice"](https://youtu.be/tR3G9Z2ScAc?si=ZFdQVBaqBck06YSW) video, along with a couple other videos on YouTube.
+- **October 23, 2025:**  
+  - Created a sparsely populated [CANON_PROGRESS.md](/CANON_PROGRESS.md) document to post updates on private work to prevent this public repo from going stale.
+- **September 29, 2025:**  
+  - First public code release + creation of private Void Dynamics package which can now be imported and run in this repository using workflows and repository secrets.
+- **September 28, 2025:**  
+  - Posted two pre-prints to [Zenodo](https://doi.org/10.5281/zenodo.17220869). If you've published similar or relevant work on Reaction-Diffusion in the past 3 years on arXiv and want to support this work by endorsing me in a related category, submit an issue, post in the discussion board, or send me an email with `Subject: RD Endorsement` to get my attention. It would be much appreciated!
+- **August 21, 2025:** Launched public repo
+- ...
+- **March, 2025**  
+  - Released first falsifiable, reproducible simulations that validated initial claims.
+- **February, 2025**  
+  - SIE and Emergent KG + Real-Time TDA show very strong statistically significant findings, making feasible the entire model
+- **October, 2024**  
+  - Initial realization of the idea.
 
 **Provenance & checks (written by `00_RUN_ALL.ipynb`)**
 
