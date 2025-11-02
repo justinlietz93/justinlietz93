@@ -1,6 +1,7 @@
 <!-- Profile README for @JUSTIN_GH_HANDLE -->
 <h1 align="center">Void Dynamics Model (VDM)</h1>
 <p align="center">
+  "From the impossibility of nothing emerges everything, by mathematical necessity of hierarchical dissipation to maintain finite energy while processing infinite possibility." - The Void Dynamics Thesis
   A real-time, event-driven, reaction–diffusion substrate with void walker ecology & memory steering.  
   <br/>No dense scans. Zero training. Divergent reasoning. Constraint satisfaction in the moment.
 </p>
