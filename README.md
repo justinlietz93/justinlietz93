@@ -1,7 +1,7 @@
 <!-- Profile README for @JUSTIN_GH_HANDLE -->
 <h1 align="center">Void Dynamics Model (VDM)</h1>
 <p align="center">
-  "From the impossibility of nothing emerges everything, by mathematical necessity of hierarchical dissipation through logarithmically scaled boundaries to maintain finite energy while processing infinite possibility; concentrated through phase transitions in the complex perimeter evolution of the boundary." - The Void Dynamics Thesis  </p>
+  A background‑independent, unified metriplectic field theory with an emergent causal cone and an epistemological J→M projection.  </p>
   <p align="center">Real-time, event-driven, Klein-Gordon / Reaction–Diffusion metriplectic dynamics with complex self driven learning and stable real time emergence.  </p>
   <p align="center">No dense scans. Zero training. Divergent reasoning. Constraint satisfaction in the moment.  </p>
 </p>
