@@ -34,8 +34,8 @@
 ---
 
 ### 🧪 Reproducible records (Zenodo)
-- Latest Zenodo Upload: **[Counterfactual Echo Gain (CEG): Future-Aware Metriplectic Assistance Yields Gate-Certified Echo Improvement]([https://zenodo.org/records/17220869?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijg5NzU0YWVkLTk4OTktNDkzMC1hMDQ4LTEwYThmMjMwYmY5MyIsImRhdGEiOnt9LCJyYW5kb20iOiJjYTg4YjhhZmJmZGVkMmIyMTFkNmEzOWIzNmFkMDk2NCJ9.ACynGDMzx4lAtPOfNNX-vDPPh8DMEISWTOoCO-I3DJ9aktZ_RZCDm0uUwxtVi5eVYbsrMopwcANKznI8WrslbQ](https://doi.org/10.5281/zenodo.17567396))**
-- DOI: **10.5281/zenodo.17567396)**  
+- Latest Zenodo Upload: **[Counterfactual Echo Gain (CEG): Future-Aware Metriplectic Assistance Yields Gate-Certified Echo Improvement](https://zenodo.org/records/17567396?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjhhMjQxZDU2LTAzMzEtNDZlNy04NTZlLWJmZTMyZTQzMmYwNSIsImRhdGEiOnt9LCJyYW5kb20iOiIwZDY3Zjc5MGUzYTI3MjljZDcyNzRmZDdkNGQxNmIzZSJ9.EHVVvrrIQYYt0qnMsbv7f8_InFW5t3KYM5kkbGY6pTna99dMDPKVxy0j-K4QF0Tgh5NFZh9eiAeZU7Ztb0xT_Q)**
+- DOI: **10.5281/zenodo.17567396)** 
 - (with code + datasets + figures)  
 
 ---
