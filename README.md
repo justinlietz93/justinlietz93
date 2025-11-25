@@ -23,7 +23,7 @@
 ---
 
 ### 🔭 What I’m building
-- **VDM** — reaction–diffusion field intelligence + walker ecology + scoreboard/GDSP gating  
+- **VDM** — Klein-Gordon / reaction–diffusion field intelligence + walker ecology + scoreboard/GDSP gating  
 - **Memory Steering** — dynamic knowledge graph with event-driven updates
 - **Agency** — inherent, minimal energy optimization rules
 - **Real-time control** — swap massive pretraining for fast constraint satisfaction
