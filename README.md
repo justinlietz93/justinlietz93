@@ -7,13 +7,13 @@
 
 <p align="center">
   <!-- Zenodo badge: use your version DOI or concept DOI for “latest” -->
-  <a href="https://doi.org/10.5281/zenodo.17220869"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17220869.svg" alt="DOI"></a>
+  <a href="https://doi.org/10.5281/zenodo.17220869"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17220869.svg" alt="DOI"></a>  
   <!-- ORCID badge (optional) -->
-  <a href="https://orcid.org/0009-0008-9028-1366"><img src="https://img.shields.io/badge/ORCID-0009--0008--9028--1366-blue?style=flat-square" alt="ORCID"></a>
+  <a href="https://orcid.org/0009-0008-9028-1366"><img src="https://img.shields.io/badge/ORCID-0009--0008--9028--1366-blue?style=flat-square" alt="ORCID"></a>  
   <!-- AMD/ROCm stance -->
-  <img src="https://img.shields.io/badge/GPU-AMD%2FROCm-only?style=flat-square" alt="AMD/ROCm only">
+  <img src="https://img.shields.io/badge/GPU-AMD%2FROCm-only?style=flat-square" alt="AMD/ROCm only">  
   <!-- LICENSE -->
-  <a href="https://github.com/Neuroca-Inc/Prometheus_Void-Dynamics_Model/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/Academic%2FCommercial%20Dual-License?label=LICENSE&color=%23fff200&link=https%3A%2F%2Fgithub.com%2FNeuroca-Inc%2FPrometheus_Void-Dynamics_Model%2Fblob%2Fmain%2FLICENSE.md" alt="Dual Academic/Commercial License"></a>
+  <a href="https://github.com/Neuroca-Inc/Prometheus_Void-Dynamics_Model/blob/main/LICENSE.md">  <img src="https://img.shields.io/badge/Academic%2FCommercial%20Dual-License?label=LICENSE&color=%23fff200&link=https%3A%2F%2Fgithub.com%2FNeuroca-Inc%2FPrometheus_Void-Dynamics_Model%2Fblob%2Fmain%2FLICENSE.md" alt="Dual Academic/Commercial License"></a>
 </p>
 
 ---
