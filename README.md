@@ -7,7 +7,7 @@
 
 <p align="center">
   <!-- Zenodo badge: use your version DOI or concept DOI for “latest” -->
-  <a href="https://doi.org/10.5281/zenodo.17220869"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17220869.svg" alt="DOI"></a>  
+  <a href="https://doi.org/10.5281/zenodo.17508502"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17508502.svg" alt="DOI"></a>  
   <!-- ORCID badge (optional) -->
   <a href="https://orcid.org/0009-0008-9028-1366"><img src="https://img.shields.io/badge/ORCID-0009--0008--9028--1366-blue?style=flat-square" alt="ORCID"></a>  
   <!-- AMD/ROCm stance -->
