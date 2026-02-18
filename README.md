@@ -33,6 +33,8 @@
 ---
 
 ### 🧪 Reproducible records (Zenodo)
-- Latest Zenodo Upload: **[Counterfactual Echo Gain (CEG): Future-Aware Metriplectic Assistance Yields Gate-Certified Echo Improvement](https://zenodo.org/records/17567396?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjhhMjQxZDU2LTAzMzEtNDZlNy04NTZlLWJmZTMyZTQzMmYwNSIsImRhdGEiOnt9LCJyYW5kb20iOiIwZDY3Zjc5MGUzYTI3MjljZDcyNzRmZDdkNGQxNmIzZSJ9.EHVVvrrIQYYt0qnMsbv7f8_InFW5t3KYM5kkbGY6pTna99dMDPKVxy0j-K4QF0Tgh5NFZh9eiAeZU7Ztb0xT_Q)**
-- DOI: **10.5281/zenodo.17567396)** 
-- (with code + datasets + figures)  
+- Latest Zenodo Uploads: **[Void Dynamics Model: Zenodo Community](https://zenodo.org/communities/void-dynamics-model/records)**
+- (with code + datasets + figures)
+
+### Community Research Engagement
+- [Academia.edu profile](https://independent.academia.edu/justinlietz)
