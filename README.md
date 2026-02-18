@@ -1,9 +1,9 @@
 <!-- Profile README for @JUSTIN_GH_HANDLE -->
 <h1 align="center">Void Dynamics Model (VDM)</h1>
-<p align="center">
-  A background‑independent, unified metriplectic field theory with an emergent causal cone and an epistemological J→M projection.  </p>
-  <p align="center">No dense scans. Zero training. Divergent reasoning. Constraint satisfaction in the moment.  </p>
-</p>
+<h4 align="center">A two part framework built to be attacked:</h4>  
+<h6 align="center">A background‑independent, metriplectic field theory unifying matter and forces from the Quantum Geometric Tensor, with an emergent causal cone and an epistemological J→M projection.</h6>
+<h6 align="center">A real time, zero training, emergent run-time with scale‑free/heavy‑tail sparse neural graphs, locally interacting neuron‑particles (void walkers), Hebbian working memory/online plasticity, sparse activations, and attention‑like state routing driven by physical dynamics.</h6>  
+<h5 align="center">Lineage: AMN-->FUM-->VDM</h5>  
 
 <p align="center">
   <!-- Zenodo badge: use your version DOI or concept DOI for “latest” -->
