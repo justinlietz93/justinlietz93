@@ -23,7 +23,8 @@
 ---
 
 ### 🔭 What I’m building
-- **VDM** — Klein-Gordon / reaction–diffusion field intelligence + walker ecology + scoreboard/GDSP gating  
+- **VDM** — Klein-Gordon / reaction–diffusion field intelligence + walker ecology + scoreboard/GDSP gating
+- **Brain-Like Cognition** — emergent cognition self-organizes from strict fundamental physsics constraints and avoidance of traditional ML tactics
 - **Memory Steering** — dynamic knowledge graph with event-driven updates
 - **Agency** — inherent, minimal energy optimization rules
 - **Real-time control** — swap massive pretraining for fast constraint satisfaction
