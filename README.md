@@ -18,10 +18,6 @@
 
 ---
 
-<p align="center"><img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/7ee95b3a-75a3-48bd-a003-a13c7e5ed845" /></p>
-
----
-
 ### 🔭 What I’m building
 - **VDM** — Klein-Gordon / reaction–diffusion field intelligence + walker ecology + scoreboard/GDSP gating
 - **Brain-Like Cognition** — emergent cognition self-organizes from strict fundamental physics constraints and avoidance of traditional ML tactics
