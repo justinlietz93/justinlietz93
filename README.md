@@ -16,6 +16,10 @@
   <a href="https://github.com/Neuroca-Inc/Prometheus_Void-Dynamics_Model/blob/main/LICENSE.md">  <img src="https://img.shields.io/badge/Academic%2FCommercial%20Dual-License?label=LICENSE&color=%23fff200&link=https%3A%2F%2Fgithub.com%2FNeuroca-Inc%2FPrometheus_Void-Dynamics_Model%2Fblob%2Fmain%2FLICENSE.md" alt="Dual Academic/Commercial License"></a>
 </p>
 
+<img width="1119" height="360" alt="newplot" src="https://github.com/user-attachments/assets/3d8f016a-b7d9-4839-ad9f-c71144e4bb92" />
+
+<img width="1337" height="423" alt="Screenshot 2026-02-22 185955" src="https://github.com/user-attachments/assets/cc94f5a1-f2ae-4a34-b7b0-cfc1f5f958f1" />
+
 ---
 
 ### 🔭 What I’m building
