@@ -24,16 +24,6 @@ Robust through substantial perturbations, mmaintains synchronicity locking SIE v
 > **Zenodo Community:** [Void Dynamics Model](https://zenodo.org/communities/void-dynamics-model/records?q=&l=list&p=1&s=10&sort=newest)  
 > **Academia.edu Profile:** [independent.academia.edu/justinlietz](https://independent.academia.edu/justinlietz)  
 > <a href="https://orcid.org/0009-0008-9028-1366"><img src="https://img.shields.io/badge/ORCID-0009--0008--9028--1366-blue?" alt="ORCID: 0009-0008-9028-1366"></a>  
->
-> **Created:** August 9, 2025  
-> **Last Updated:** February 25, 2026  
->
-> This research is protected under a dual-license to foster open academic  
-> research while ensuring commercial applications are aligned with the project's ethical principles.  
-> Commercial use requires written permission from the author.  
->
-
-<h6>Patent pending on specific AI technology - See license file for full terms</h6>
 
 > [![Static Badge](https://img.shields.io/badge/Academic%2FCommercial%20Dual-License?label=LICENSE&color=%23fff200&link=https%3A%2F%2Fgithub.com%2FNeuroca-Inc%2FPrometheus_Void-Dynamics_Model%2Fblob%2Fmain%2FLICENSE.md)](/LICENSE.md)  
 
