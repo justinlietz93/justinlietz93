@@ -39,7 +39,7 @@ The second is a zero-training cognitive runtime that explores how “conservatio
 
 Included with the publications are adversarial Jupyter notebooks, SymPy scripts, and rigorous Lean 4 packages explicitly designed to attack each claim directly and mercilessly in each of the associated Zenodo packages for your convenience as a skeptical reviewer.
 
-> *Attempts to disprove the work of Neuroca, Inc. and our affiliated researchers are highly encouraged. If your critique successfully falsifies any of our findings and we are able to verify your results, we will publish a formal follow-up paper confirming your criticisms, officially conceding the original claims, and giving you full credit for the correction.*
+*Attempts to disprove the work of Neuroca, Inc. and our affiliated researchers are highly encouraged. If your critique successfully falsifies any of our findings and we are able to verify your results, we will publish a formal follow-up paper confirming your criticisms, officially conceding the original claims, and giving you full credit for the correction.*
 
 </br>
 
