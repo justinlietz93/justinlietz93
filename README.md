@@ -97,8 +97,10 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
   <tr>
     <td width="33%" valign="top" style="padding: 15px; border-right: 1px solid #30363D;">
       <!-- PODCAST:START -->
-      <h4 style="margin-top: 0; color: #58A6FF;">🎙️ Podcast</h4>
-      <!-- PODCAST:END -->
+- [35 - Phase Calculus: What is Phase Calculus?](https://rss.com/podcasts/void-dynamics-model/2707312)
+- [34 - Phase Calculus: On Life, Evolution, and Intelligence](https://rss.com/podcasts/void-dynamics-model/2696337)
+- [33 - Phase Calculus: No Creator is Listening — You’re Hearing Yourself](https://rss.com/podcasts/void-dynamics-model/2696321)
+<!-- PODCAST:END -->
       <br>
       <!-- YOUTUBE:START -->
       <h4 style="margin-top: 0; color: #FF0000;">📺 YouTube</h4>
