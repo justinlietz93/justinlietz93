@@ -1,0 +1,38 @@
+# File: .github/workflows/telemetry.yml
+name: Live Telemetry Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at 00:00 UTC every day
+  workflow_dispatch:    # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Inject Latest Podcast Episodes
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://media.rss.com/void-dynamics-model/feed.xml"
+          comment_tag_name: "PODCAST"
+          max_post_count: 3
+
+      - name: Inject Latest Zenodo Publications
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://zenodo.org/communities/void-dynamics-model/records/?format=rss"
+          comment_tag_name: "ZENODO"
+          max_post_count: 3
+
+      - name: Inject Latest Medium Articles
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://medium.com/feed/@jlietz93"
+          comment_tag_name: "MEDIUM"
+          max_post_count: 3
