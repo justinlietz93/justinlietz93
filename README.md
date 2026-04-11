@@ -1,6 +1,6 @@
 <div align="center">
   <h3><strong>Fund zero-trust physics and emergent cognition.</strong></h3>
-  <p><em>Sponsor the Void Dynamics Model to unlock private adversarial packages, raw compute logs, and unreleased runtimes.</em></p>
+  <p><em>Sponsor my work and research to unlock private adversarial packages, raw compute logs, and unreleased runtimes.</em></p>
   <br>
   <a href="https://github.com/sponsors/justinlietz93"><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
   <br><br>
