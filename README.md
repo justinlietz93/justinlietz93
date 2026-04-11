@@ -96,23 +96,23 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
 <table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363D; background-color: #0D1117; color: #C9D1D9;">
   <tr>
     <td width="33%" valign="top" style="padding: 15px; border-right: 1px solid #30363D;">
-      <--! PODCAST:START -->
+      <!-- PODCAST:START -->
       <h4 style="margin-top: 0; color: #58A6FF;">🎙️ Podcast</h4>
-      <--! PODCAST:END -->
+      <!-- PODCAST:END -->
       <br>
-      <--! YOUTUBE:START -->
+      <!-- YOUTUBE:START -->
       <h4 style="margin-top: 0; color: #FF0000;">📺 YouTube</h4>
-      <--! YOUTUBE:END -->
+      <!-- YOUTUBE:END -->
       </td>
     <td width="33%" valign="top" style="padding: 15px; border-right: 1px solid #30363D;">
-      <--! ZENODO:START -->
+      <!-- ZENODO:START -->
       <h4 style="margin-top: 0; color: #3FB950;">📄 Zenodo</h4>
-      <--! ZENODO:END -->
+      <!-- ZENODO:END -->
       </td>
     <td width="33%" valign="top" style="padding: 15px;">
-      <--! MEDIUM:START -->
+      <!-- MEDIUM:START -->
       <h4 style="margin-top: 0; color: #D2A8FF;">📝 Medium</h4>
-      <--! MEDIUM:END -->
+      <!-- MEDIUM:END -->
       </td>
   </tr>
 </table>
