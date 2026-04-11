@@ -70,7 +70,3 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/1a9e843e-e17d-478c-93b0-a5b164f689b6" alt="phase_calculus" width="80%">
-</div>
