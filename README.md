@@ -1,4 +1,12 @@
 <div align="center">
+  <img src="https://img.shields.io/badge/Void_Dynamics_Model_(VDM)-Metriplectic_Physics_%26_Emergent_Neural_Dynamics-1A1A1A?style=for-the-badge" alt="Void Dynamics Model (VDM)"><br>
+  <p><em>A dual framework built to be attacked: A background-independent metriplectic field theory and a real-time, zero-training emergent neural runtime.</em></p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&duration=4000&pause=1000&color=A6CE39&center=true&vCenter=true&width=400&lines=Lineage%3A+AMN+%E2%86%92+FUM+%E2%86%92+VDM;Built+to+be+falsified;Zero-trust+auditable+physics;Phase+Calculus" alt="Typing SVG">
+</div>
+
+<br>
+
+<div align="center">
   <h3><strong>Fund zero-trust physics and emergent cognition.</strong></h3>
   <p><em>Sponsor my work and research to unlock private adversarial packages, raw compute logs, and unreleased runtimes.</em></p>
   <br>
@@ -36,14 +44,6 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
 </br>
 
 ---
-
-<br>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Void_Dynamics_Model_(VDM)-Metriplectic_Physics_%26_Emergent_Neural_Dynamics-1A1A1A?style=for-the-badge" alt="Void Dynamics Model (VDM)"><br>
-  <p><em>A dual framework built to be attacked: A background-independent metriplectic field theory and a real-time, zero-training emergent neural runtime.</em></p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&duration=4000&pause=1000&color=A6CE39&center=true&vCenter=true&width=400&lines=Lineage%3A+AMN+%E2%86%92+FUM+%E2%86%92+VDM;Built+to+be+falsified;Zero-trust+auditable+physics;Phase+Calculus" alt="Typing SVG">
-</div>
 
 <br>
 
