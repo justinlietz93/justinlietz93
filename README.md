@@ -13,8 +13,14 @@ The second is a zero-training cognitive runtime that explores how “conservatio
 
 **If you only remember one thing:** VDM prioritizes falsifiable, repeatable evidence over narrative and makes the ability to fail quickly an advantage.
 
+---
+
 <div align="center">
-  <a href="https://github.com/sponsors/justinlietz93" ><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a><br><br>
+  <h3><strong>Fund zero-trust physics and emergent cognition.</strong></h3>
+  <p><em>Sponsor the Void Dynamics Model to unlock private adversarial packages, raw compute logs, and unreleased runtimes.</em></p>
+  <br>
+  <a href="https://github.com/sponsors/justinlietz93"><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
+  <br><br>
 </div>
 
 ---
