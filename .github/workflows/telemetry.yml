@@ -22,12 +22,21 @@ jobs:
           comment_tag_name: "PODCAST"
           max_post_count: 3
 
-      - name: Inject Zenodo
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://zenodo.org/communities/void-dynamics-model/rss"
-          comment_tag_name: "ZENODO"
-          max_post_count: 3
+      - name: Inject Zenodo (via REST API)
+        run: |
+          # Fetch latest 3 records (public API, no token needed)
+          curl -s "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" > zenodo.json
+
+          # Generate the markdown section (matches the style of your other blocks)
+          echo '<h4 style="margin-top: 0; color: #3FB950;">📄 Zenodo</h4>' > zenodo_section.md
+          echo '' >> zenodo_section.md
+          jq -r '.hits.hits[] | "- [" + .metadata.title + "](" + .doi_url + ") (" + (.metadata.publication_date // .created | split("T")[0]) + ")"' zenodo.json >> zenodo_section.md
+
+          # Inject between the existing comment tags (preserves your README structure)
+          sed -i '/<!-- ZENODO:START -->/,/<!-- ZENODO:END -->/c\<!-- ZENODO:START -->\n'"$(cat zenodo_section.md)"'\n<!-- ZENODO:END -->' README.md
+
+          echo "✅ Zenodo section updated with latest records"
+        shell: bash
 
       - name: Inject Medium
         uses: gautamkrishnar/blog-post-workflow@v1
