@@ -14,11 +14,11 @@
   <br><br>
 </div>
 
-</br>
+<br>
 
 ---
 
-</br>
+<br>
 
 > **I build "zero-trust" auditable physics and cognition systems that can be proven wrong with clear instructions on how to do so.**
 
@@ -41,7 +41,7 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
 
 > *Attempts to disprove the work of Neuroca, Inc. and our affiliated researchers are highly encouraged. If your critique successfully falsifies any of our findings and we are able to verify your results, we will publish a formal follow-up paper confirming your criticisms, officially conceding the original claims, and giving you full credit for the correction.*
 
-</br>
+<br>
 
 ---
 
@@ -81,4 +81,30 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
       </td>
     </tr>
   </tbody>
+</table>
+
+<br>
+
+<div align="center">
+  <a href="https://wakatime.com/@justinlietz93">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=justinlietz93&bg_color=0D1117&text_color=C9D1D9&title_color=58A6FF&hide_border=true" alt="WakaTime Stats">
+  </a>
+</div>
+
+<br>
+
+<table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363D; background-color: #0D1117; color: #C9D1D9;">
+  <tr>
+    <td width="33%" valign="top" style="padding: 15px; border-right: 1px solid #30363D;">
+      <h4 style="margin-top: 0; color: #58A6FF;">🎙️ Podcast</h4>
+      <br>
+      <h4 style="margin-top: 0; color: #FF0000;">📺 YouTube</h4>
+      </td>
+    <td width="33%" valign="top" style="padding: 15px; border-right: 1px solid #30363D;">
+      <h4 style="margin-top: 0; color: #3FB950;">📄 Zenodo</h4>
+      </td>
+    <td width="33%" valign="top" style="padding: 15px;">
+      <h4 style="margin-top: 0; color: #D2A8FF;">📝 Medium</h4>
+      </td>
+  </tr>
 </table>
