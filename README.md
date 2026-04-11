@@ -13,6 +13,10 @@ The second is a zero-training cognitive runtime that explores how “conservatio
 
 **If you only remember one thing:** VDM prioritizes falsifiable, repeatable evidence over narrative and makes the ability to fail quickly an advantage.
 
+<div align="center">
+  <a href="https://github.com/sponsors/justinlietz93" ><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a><br><br>
+</div>
+
 ---
 
 Included with the publications are adversarial Jupyter notebooks, SymPy scripts, and rigorous Lean 4 packages explicitly designed to attack each claim directly and mercilessly in each of the associated Zenodo packages for your convenience as a skeptical reviewer.
@@ -60,3 +64,7 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1a9e843e-e17d-478c-93b0-a5b164f689b6" alt="phase_calculus" width="80%">
+</div>
