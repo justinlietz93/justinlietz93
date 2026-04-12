@@ -22,27 +22,30 @@ jobs:
           comment_tag_name: "PODCAST"
           max_post_count: 3
 
-      - name: Inject Zenodo (via REST API — stable + error-proof)
+      - name: Inject Zenodo (via REST API — now fully hardened)
         run: |
-          # 1. Fetch latest 3 records
-          curl -s -f "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" -o zenodo.json
+          echo "Fetching Zenodo records..."
+          curl -s -f -H "Accept: application/json" -H "User-Agent: GitHub-Actions-VDM-Telemetry/1.0" \
+            "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" \
+            -o zenodo.json || { echo "❌ Curl failed (HTTP error)"; exit 1; }
 
-          # 2. Validate it's real JSON (critical safety check)
+          # Critical safety check
           if ! jq . zenodo.json >/dev/null 2>&1; then
-            echo "❌ Zenodo API did not return valid JSON. Raw response (first 300 chars):"
-            head -c 300 zenodo.json
-            echo "⚠️ Keeping existing Zenodo section in README.md"
+            echo "❌ Zenodo did NOT return valid JSON. Raw response (first 400 chars):"
+            head -c 400 zenodo.json | cat
+            echo ""
+            echo "⚠️ Keeping existing Zenodo section in README.md (no changes made)"
             rm -f zenodo.json
-            exit 0   # don't fail the whole workflow
+            exit 0
           fi
 
-          # 3. Build the markdown block
+          # Build clean markdown
           {
             echo '<h4 style="margin-top: 0; color: #3FB950;">📄 Zenodo</h4>'
             jq -r '.hits.hits[] | "- [" + .metadata.title + "](" + (.doi_url // .links.html // ("https://zenodo.org/records/" + (.id|tostring))) + ") (" + (.metadata.publication_date // .created | split("T")[0]) + ")"' zenodo.json
           } > zenodo_section.md
 
-          # 4. Replace the tagged section safely
+          # Safe block replacement
           awk '
             /<!-- ZENODO:START -->/ {
               print
