@@ -22,18 +22,27 @@ jobs:
           comment_tag_name: "PODCAST"
           max_post_count: 3
 
-      - name: Inject Zenodo (via REST API — stable & robust)
+      - name: Inject Zenodo (via REST API — stable + error-proof)
         run: |
-          # 1. Fetch the latest 3 records (public API — no token needed)
-          curl -s "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" -o zenodo.json
+          # 1. Fetch latest 3 records
+          curl -s -f "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" -o zenodo.json
 
-          # 2. Build the exact markdown block your README expects
+          # 2. Validate it's real JSON (critical safety check)
+          if ! jq . zenodo.json >/dev/null 2>&1; then
+            echo "❌ Zenodo API did not return valid JSON. Raw response (first 300 chars):"
+            head -c 300 zenodo.json
+            echo "⚠️ Keeping existing Zenodo section in README.md"
+            rm -f zenodo.json
+            exit 0   # don't fail the whole workflow
+          fi
+
+          # 3. Build the markdown block
           {
             echo '<h4 style="margin-top: 0; color: #3FB950;">📄 Zenodo</h4>'
-            jq -r '.hits.hits[] | "- [" + .metadata.title + "](" + .links.html + ") (" + (.metadata.publication_date // .created | split("T")[0]) + ")"' zenodo.json
+            jq -r '.hits.hits[] | "- [" + .metadata.title + "](" + (.doi_url // .links.html // ("https://zenodo.org/records/" + (.id|tostring))) + ") (" + (.metadata.publication_date // .created | split("T")[0]) + ")"' zenodo.json
           } > zenodo_section.md
 
-          # 3. Replace the tagged section (awk is rock-solid for this)
+          # 4. Replace the tagged section safely
           awk '
             /<!-- ZENODO:START -->/ {
               print
