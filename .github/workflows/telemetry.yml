@@ -22,20 +22,32 @@ jobs:
           comment_tag_name: "PODCAST"
           max_post_count: 3
 
-      - name: Inject Zenodo (via REST API)
+      - name: Inject Zenodo (via REST API — stable & robust)
         run: |
-          # Fetch latest 3 records (public API, no token needed)
-          curl -s "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" > zenodo.json
+          # 1. Fetch the latest 3 records (public API — no token needed)
+          curl -s "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" -o zenodo.json
 
-          # Generate the markdown section (matches the style of your other blocks)
-          echo '<h4 style="margin-top: 0; color: #3FB950;">📄 Zenodo</h4>' > zenodo_section.md
-          echo '' >> zenodo_section.md
-          jq -r '.hits.hits[] | "- [" + .metadata.title + "](" + .doi_url + ") (" + (.metadata.publication_date // .created | split("T")[0]) + ")"' zenodo.json >> zenodo_section.md
+          # 2. Build the exact markdown block your README expects
+          {
+            echo '<h4 style="margin-top: 0; color: #3FB950;">📄 Zenodo</h4>'
+            jq -r '.hits.hits[] | "- [" + .metadata.title + "](" + .links.html + ") (" + (.metadata.publication_date // .created | split("T")[0]) + ")"' zenodo.json
+          } > zenodo_section.md
 
-          # Inject between the existing comment tags (preserves your README structure)
-          sed -i '/<!-- ZENODO:START -->/,/<!-- ZENODO:END -->/c\<!-- ZENODO:START -->\n'"$(cat zenodo_section.md)"'\n<!-- ZENODO:END -->' README.md
+          # 3. Replace the tagged section (awk is rock-solid for this)
+          awk '
+            /<!-- ZENODO:START -->/ {
+              print
+              while ((getline line < "zenodo_section.md") > 0) print line
+              close("zenodo_section.md")
+              while (getline && $0 !~ /<!-- ZENODO:END -->/) next
+              print "<!-- ZENODO:END -->"
+              next
+            }
+            { print }
+          ' README.md > README.tmp && mv README.tmp README.md
 
-          echo "✅ Zenodo section updated with latest records"
+          echo "✅ Zenodo section updated with latest 3 records"
+          rm -f zenodo.json zenodo_section.md
         shell: bash
 
       - name: Inject Medium
