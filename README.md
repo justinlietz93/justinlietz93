@@ -103,8 +103,10 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
 <!-- PODCAST:END -->
       </br>
       <!-- YOUTUBE:START -->
-      <h4 style="margin-top: 0; color: #FF0000;">📺 YouTube</h4>
-      <!-- YOUTUBE:END -->
+- [What is Phase Calculus?](https://www.youtube.com/watch?v=JtmhrDdUrJU)
+- [Why Differential Calculus is Just a Shadow](https://www.youtube.com/watch?v=ZDT5qGA0CEI)
+- [How i Generates Reality](https://www.youtube.com/watch?v=gc30eKZjccM)
+<!-- YOUTUBE:END -->
       </td>
     <td width="33%" valign="top" style="padding: 15px; border-right: 1px solid #30363D;">
       <!-- ZENODO:START -->
