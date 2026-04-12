@@ -113,8 +113,10 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
       </td>
     <td width="33%" valign="top" style="padding: 15px;">
       <!-- MEDIUM:START -->
-      <h4 style="margin-top: 0; color: #D2A8FF;">📝 Medium</h4>
-      <!-- MEDIUM:END -->
+- [Zero-Trust AI for Physics](https://blog.gopenai.com/zero-trust-ai-for-physics-3597e31d93bf?source=rss-da9696075564------2)
+- [Our Quantum Shadow of Reality](https://medium.com/@jlietz93/our-quantum-shadow-of-reality-51e4391ceb18?source=rss-da9696075564------2)
+- [When Echoes Know Their Future: A Classical Path to Quantum-Inspired Error Recovery](https://blog.gopenai.com/when-echoes-know-their-future-a-classical-path-to-quantum-inspired-error-recovery-c40a44f799d8?source=rss-da9696075564------2)
+<!-- MEDIUM:END -->
       </td>
   </tr>
 </table>
