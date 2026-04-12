@@ -25,8 +25,8 @@ jobs:
       - name: Inject Zenodo (via REST API — now fully hardened)
         run: |
           echo "Fetching Zenodo records..."
-          curl -s -f -H "Accept: application/json" -H "User-Agent: GitHub-Actions-VDM-Telemetry/1.0" \
-            "https://zenodo.org/api/records/?communities=void-dynamics-model&size=3&sort=newest" \
+          curl -s -f -L -H "Accept: application/json" -H "User-Agent: GitHub-Actions-VDM-Telemetry/1.0" \
+            "https://zenodo.org/api/records?communities=void-dynamics-model&size=3&sort=newest" \
             -o zenodo.json || { echo "❌ Curl failed (HTTP error)"; exit 1; }
 
           # Critical safety check
