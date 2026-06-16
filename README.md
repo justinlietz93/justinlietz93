@@ -76,7 +76,6 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
         <a href="https://rss.com/podcasts/void-dynamics-model/"><img src="https://img.shields.io/badge/Podcast-The_Void_Dynamics_Model-1A1A1A?style=for-the-badge&logo=rss" alt="Podcast"></a></br></br>
         <a href="https://www.reddit.com/r/VoidDynamicsModel/"><img src="https://img.shields.io/badge/Reddit-r/VoidDynamicsModel-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"></a></br></br>
         <img src="https://img.shields.io/badge/Status-Active_Development-2EA043?style=for-the-badge" alt="Status"></br></br>
-        <a href="https://drive.google.com/drive/folders/1KSgZE4Y9mFmFiChhEphWbb1EuLzgv3AW?usp=sharing"><img src="https://img.shields.io/badge/Data_Access-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Data Access"></a></br></br>
         <a href="https://www.youtube.com/playlist?list=PLZ7ANL9K2fXJjPnISBbvCaJcBSscIYTQk"><img src="https://img.shields.io/badge/YouTube-Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
       </td>
     </tr>
