@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/Void_Dynamics_Model_(VDM)-Metriplectic_Physics_%26_Emergent_Neural_Dynamics-1A1A1A?style=for-the-badge" alt="Void Dynamics Model (VDM)"></br>
-  <p><em>A dual framework built to be attacked: A background-independent metriplectic field theory and a real-time, zero-training emergent neural runtime.</em></p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&duration=4000&pause=1000&color=A6CE39&center=true&vCenter=true&width=400&lines=Lineage%3A+AMN+%E2%86%92+FUM+%E2%86%92+VDM;Built+to+be+falsified;Zero-trust+auditable+physics;Phase+Calculus" alt="Typing SVG">
+  <img src="https://img.shields.io/badge/Void_Dynamics_Model_(VDM)-Phase_Calculus_%7C_Physics_%7C_Emergent_Cognition-1A1A1A?style=for-the-badge" alt="Void Dynamics Model (VDM)"></br>
+  <p><em>An independent research program in foundational mathematics, falsifiable physics, and zero-training emergent cognition, with Phase Calculus serving as a structural pillar of the current work.</em></p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&duration=4000&pause=1000&color=A6CE39&center=true&vCenter=true&width=500&lines=Lineage%3A+AMN+%E2%86%92+FUM+%E2%86%92+VDM;Built+to+be+falsified;Zero-trust+auditable+physics;Phase+Calculus;Zero-training+emergent+cognition" alt="Typing SVG">
 </div>
 
 </br>
 
 <div align="center">
-  <h3><strong>Fund zero-trust physics and emergent cognition.</strong></h3>
+  <h3><strong>Fund foundational mathematics, zero-trust physics, and emergent cognition.</strong></h3>
   <p><em>Sponsor my work and research to unlock private adversarial packages, raw compute logs, and unreleased runtimes.</em></p>
   </br>
   <a href="https://github.com/sponsors/justinlietz93"><img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
@@ -20,24 +20,31 @@
 
 </br>
 
-> **I build "zero-trust" auditable physics and cognition systems that can be proven wrong with clear instructions on how to do so.**
+> **I build "zero-trust" auditable mathematical, physical, and cognitive systems that can be proven wrong with clear instructions on how to do so.**
 
-Justin K. Lietz is the founder of Neuroca and leads the Void Dynamics Model (VDM), an independent research program with two tracks.
+Justin K. Lietz is the founder of Neuroca and leads the **Void Dynamics Model (VDM)**, an independent research program spanning foundational mathematics, physics, and zero-training cognitive systems.
 
-The first is a physics framework that treats experiments like software releases: predictions are preregistered, time-stamped, and cryptographically signed before any results are collected, with clear pass/fail gates and public contradiction reports when something breaks.
+**Phase Calculus** emerged from the internal development of VDM rather than being introduced as an external framework. The research path ran backward from CF01 toward CF000 and CF00, then branched through **Farey Remainder Recursion** before CF19 first described the **lifted object**. That line of development grew into Phase Calculus, which now serves as a structural pillar of VDM and facilitates a substantial portion of the program's current mathematical, physical, and computational research.
 
-The second is a zero-training cognitive runtime that explores how “conservation vs. dissipation” style dynamics can produce stable, adaptive behavior in sparse, event-driven neural graphs. VDM is built to be reviewable and reproducible, and Justin actively seeks skeptical external reviewers and independent reruns.
+The physics work treats experiments like software releases: predictions are preregistered, time-stamped, and cryptographically signed before results are collected, with explicit pass/fail gates and public contradiction reports when something breaks.
+
+The cognition work develops zero-training runtimes that investigate how conservation/dissipation-style dynamics, retained state, and sparse event-driven neural graphs can produce stable, adaptive behavior without conventional model training.
+
+Across the program, VDM is built to be reviewable and reproducible. Major claims are paired wherever possible with formal derivations, executable numerical tests, explicit falsification targets, and artifacts intended for independent reruns and skeptical review.
 
 ### QA
-* **Who is this work best for?** Researchers who value reproducibility and clean falsification.
-* **What can you do with it?** Reproduce runs, audit gates, or stress-test the strongest claims.
-* **What makes it trustworthy?** Preregistration, explicit pass/fail thresholds, and failure reports by default.
+* **What is VDM?** The umbrella research program encompassing the foundational mathematics, physics, and cognitive systems developed at Neuroca.
+* **What is Phase Calculus?** A mathematical formalism derived from the internal development of VDM that has become a structural pillar supporting much of the current research.
+* **How did Phase Calculus emerge?** By tracing the mathematical structure of the physics backward from CF01 toward CF000 and CF00, branching through Farey Remainder Recursion, and reaching CF19's first explicit description of the lifted object.
+* **Who is this work best for?** Researchers who value reproducibility, formal verification, and clean falsification.
+* **What can you do with it?** Reproduce runs, inspect proofs, audit gates, construct counterexamples, or stress-test the strongest claims.
+* **What makes it trustworthy?** Preregistration where applicable, explicit pass/fail thresholds, executable verification artifacts, and failure reports by default.
 
-**If you only remember one thing:** VDM prioritizes falsifiable, repeatable evidence over narrative and makes the ability to fail quickly an advantage.
+**If you only remember one thing:** VDM is the full research program; Phase Calculus is now one of its structural mathematical pillars, and the work is organized around making important claims falsifiable, reproducible, and auditable.
 
 ---
 
-Included with the publications are adversarial Jupyter notebooks, SymPy scripts, and rigorous Lean 4 packages explicitly designed to attack each claim directly and mercilessly in each of the associated Zenodo packages for your convenience as a skeptical reviewer.
+Included with the publications are adversarial Jupyter notebooks, SymPy scripts, and rigorous Lean 4 packages explicitly designed to test each claim directly in the associated Zenodo packages for the convenience of skeptical reviewers.
 
 *Attempts to disprove the work of Neuroca, Inc. and our affiliated researchers are highly encouraged. If your critique successfully falsifies any of our findings and we are able to verify your results, we will publish a formal follow-up paper confirming your criticisms, officially conceding the original claims, and giving you full credit for the correction.*
 
@@ -81,4 +88,3 @@ Included with the publications are adversarial Jupyter notebooks, SymPy scripts,
     </tr>
   </tbody>
 </table>
-
